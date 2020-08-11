@@ -1,0 +1,7 @@
+name=input("Input full name: ")
+number=input("Input favorite number: ")
+fname,lanme = name.split(' ', 1)
+print("Hello "+name+".")
+print("Would you like to be called "+fname+"?")
+print("Or would like you called "+lanme+"?")
+print("Or maybe "+number+"?")
